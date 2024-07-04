@@ -1,0 +1,212 @@
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(31, 81, 124);
+}
+
+div.strip1{
+    background-color: white;
+    background-image: url("/texture.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: -7px;
+    padding: 3px;
+    font-size: 24px;
+    
+}
+
+
+div.strip1 img{
+    height: 60px;
+    left: 20px;
+    position: relative;
+}
+div.strip1 a{
+    left: 400px;
+    padding: 6px;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+div.links {
+    margin-left: 400px;
+    display: flex;
+    gap: 10px;
+}
+
+div.links img.link1 {
+    height: 40px;
+}
+
+div.links img.link2 {
+    margin-top: -2px;
+    height: 46px;
+}
+
+div.strip2{
+    background-color: rgb(98, 102, 116);
+    height: 2px;
+    margin: -7px;
+    margin-top: 5px;
+}
+
+h1.title{
+    margin-top: 40px;
+    color: rgb(15, 10, 85);
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.box{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    top: -40px;
+}
+
+div.box1{
+    width: 198px;
+    padding: 90px;
+    height: 255px;
+    background-image: url("/texture.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid;  
+    border-color: darkgrey;
+    margin-top: 110px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: justify;
+}
+
+img.img1{
+    position: relative;
+    right: 50px;
+    height: 243px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+div.box2{
+    width: 198px;
+    padding: 90px;
+    height: 255px;
+    background-image: url("/texture.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid;  
+    border-color: darkgrey;
+    margin-top: 110px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    
+}
+
+img.img2{
+    position: relative;
+    right: 50px;
+    height: 244px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+div.box3{
+    width: 198px;
+    padding: 90px;
+    height: 255px;
+    background-image: url("/texture.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid;  
+    border-color: darkgrey;
+    margin-top: 110px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+}
+
+img.img3{
+    position: relative;
+    right: 50px;
+    height: 244px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+.box1 a{
+    text-align: center;
+    position: relative;
+    left: 5px;
+    color:darkslateblue;
+    font-size: large;
+    top: 6px;
+}
+
+.box2 a{
+    text-align: center;
+    top: -18px;
+    position: relative;
+    left: 5px;
+    color:darkslateblue;
+    font-size: large;
+    
+}
+
+.box2 h3{
+    position: relative;
+    margin-top: 1.5px;
+}
+
+.box3 a{
+    text-align: center;
+    position: relative;
+    left: 5px;
+    color:darkslateblue;
+    font-size: large;
+    top: 6px;
+}
+
+.strip1 a.hover:hover{
+    color:rgb(47, 151, 151);
+    transition: 1s all;
+    background-color: rgb(220, 227, 233);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(31, 81, 124);
+    animation: fadeIn 2s ease-in;
+}
+
+div.box div{
+    animation: fadeIn 2s ease-in;
+}
+
+
+div.box{
+ animation-delay: 1s;
+}
