@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="Navbar">
+        <img src="/calc.png">
+        <h1>BMI CALCULATOR</h1>
+        <img src="/calc.png">
+
+    </div>
+    <div class="Page">
+        <div class="Leftside_Page">
+            <ul>
+               <li> <a href="/BMI.html">What Is BMI?</a></li>
+               <br>
+               <br>
+               <li> <a href="/BMI.html">What Are Different Types Of BMI?</a></li>
+               <br>
+               <br>
+               <li> <a href="/BMI.html">How To Calculate BMI?</a></li>
+               <br>
+            </ul> 
+            <img src="/bmi_img.png">
+        </div>
+        <div class="line"></div>
+        <div class="Rightside_Page">
+            <div class="calculator">
+                <h3>Your Height(in cm) &nbsp;
+                    <input class="input_set1" type="number" id="height"></h3>
+                
+                <h3>Your Weight(in Kg)&nbsp;
+                    <input class="input_set2" type="number" id="weight"></h3>
+                    <div class="down_result">
+                        <button class="button" id="calculate">Calculate BMI</button>    
+                        <p>Your BMI Is:&nbsp;<span id="result"></span></p>
+                    </div>
+                    <div class="down">
+                         <img src="/BMI.png">
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
