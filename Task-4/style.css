@@ -1,0 +1,160 @@
+body{
+    background-color: aliceblue;
+}
+
+.Navbar{
+    background-color:rgb(246, 235, 215);
+    margin: -1px;
+    justify-content: center;
+    color:rgb(200, 80, 104);
+    display: flex;
+    border-radius: 70px;
+    border: 1px solid;
+}
+
+.Navbar h1{
+    position: relative;
+    top: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+}
+.Navbar img{
+    height: 150px;
+    width: 150px;
+}
+
+.Page{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    margin-left: -9px;
+}
+
+.Leftside_Page{
+    display: flex;
+    flex-direction: column;
+    height: 554px;
+    width: 320px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.Leftside_Page a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: auto;
+    text-align: center;
+    margin-right: 20px;
+    color:rgb(200, 80, 104);
+}
+
+.Leftside_Page ul{
+    list-style:circle ;
+}
+
+.Leftside_Page li::marker{
+    font-size: 25px;
+}
+
+.Leftside_Page a:hover{
+    color: rgb(34, 164, 164);
+    transition: all 1s;
+    background-color: rgb(219, 238, 255);
+}
+
+.Leftside_Page img{
+    position: relative;
+    height: 270px;
+    width: 350px;
+    margin-top: -20px;
+    right: 42px;
+}
+
+.line{
+    border: 1px solid rgb(206, 223, 238);
+}
+
+.Rightside_Page{
+    display: flex;
+    flex-direction: column;
+    height: 584px;
+    width: 1007px;
+}
+
+.calculator{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(246, 235, 215);
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid rgb(216, 213, 213);
+}
+
+.calculator h3{
+    font-size: 26px;
+    position: relative;
+    left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input_set1{
+    height: 26px;
+}
+
+.input_set2{
+    height: 26px;
+    position: relative;
+    left: 3px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* top: 520px; */
+}
+
+.down img{
+    height: 215px;
+    width: 460px;
+    margin-top: -15px;
+    margin-left: 70px;
+}
+
+.button{
+    width: 130px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif ;
+    letter-spacing: 0.8px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+}
+
+.down_result{
+    display: flex;
+    flex-direction: row;
+}
+
+.down_result p{
+    position: relative;
+    left: 180px;
+    font-size: 20px;
+    top: -10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
